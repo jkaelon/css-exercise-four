@@ -34,7 +34,7 @@ header h1 {
   min-height: 100%;
 	min-width: 100%;8
   width: auto;
-	height: auto;
+	height: 100%;
 }
 
 .text-overlay {
@@ -47,16 +47,19 @@ header h1 {
 @media screen and (min-width: 575px) {
   .preview {
     /*width: 44%;*/
-    height: 50%;
+    height: 200px;
     /*float: left;*/
-
-  }
-
-  .column {
     float: left;
     width: 44%;
     margin: 8px;
+
   }
+
+/*  .column {
+    float: left;
+    width: 44%;
+    margin: 8px;
+  } */
 
   .row {
     clear: both;
@@ -72,17 +75,18 @@ header h1 {
 
   .preview {
       /*width: 22%;*/
-    height: 50%;
-
+    height: 200px;
     /*float: left;*/
-
-  }
-
-  .column {
     float: left;
     width: 22%;
     margin-right: 15px;
   }
+
+  /*.column {
+    float: left;
+    width: 22%;
+    margin-right: 15px;
+  }*/
 
   .row {
     clear: none;
