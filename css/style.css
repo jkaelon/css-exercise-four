@@ -46,7 +46,7 @@ header h1 {
 /* TABLET VIEWPOINT -  2 COLUMNS */
 @media screen and (min-width: 575px) {
   .preview {
-    width: 50%;
+    /*width: 44%;*/
     height: 50%;
     /*float: left;*/
 
@@ -54,6 +54,7 @@ header h1 {
 
   .column {
     float: left;
+    width: 44%;
   }
 
   .row {
@@ -69,7 +70,7 @@ header h1 {
   }
 
   .preview {
-    width: 25%;
+      /*width: 22%;*/
     height: 50%;
     /*float: left;*/
 
@@ -77,6 +78,7 @@ header h1 {
 
   .column {
     float: left;
+    width: 22%;
   }
 
   .row {
