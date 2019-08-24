@@ -55,6 +55,7 @@ header h1 {
   .column {
     float: left;
     width: 44%;
+    margin: 8px;
   }
 
   .row {
@@ -72,6 +73,7 @@ header h1 {
   .preview {
       /*width: 22%;*/
     height: 50%;
+
     /*float: left;*/
 
   }
@@ -79,6 +81,7 @@ header h1 {
   .column {
     float: left;
     width: 22%;
+    margin-right: 15px;
   }
 
   .row {
